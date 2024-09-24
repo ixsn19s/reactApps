@@ -14,6 +14,7 @@ const Cards = ({ data, reference }) => {
   }[data.tag.tagColor] || "bg-gray-600"; // Fallback to gray if color not found
 
   return (
+    
     <motion.div 
     // dragConstraints={{ left: -100, right: 100 }}
       dragConstraints={reference} 
